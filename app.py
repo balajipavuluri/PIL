@@ -107,7 +107,9 @@ with st.form(key="form1"):
             st.write(f"Class {x} join ayanu friend! Thanks namaste :)")
         except:
             st.write(f"Class {x} jaragadam ledu  friend! :(")
-
+ else:
+  pass
         time.sleep(1)
+     
 
        
