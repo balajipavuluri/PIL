@@ -17,7 +17,6 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), o
 
 
   
-
 st.title('Nen class join avta')
 with st.form(key="form1"):
     mail=st.text_input("Enter mail")
@@ -48,7 +47,7 @@ with st.form(key="form1"):
 
  
     submit=st.form_submit_button("click here")
-  if submit:
+    if submit:
         
         driver.maximize_window()
 
@@ -107,7 +106,7 @@ with st.form(key="form1"):
             st.write(f"Class {x} join ayanu friend! Thanks namaste :)")
         except:
             st.write(f"Class {x} jaragadam ledu  friend! :(")
-  else:
+    else:
         pass
         time.sleep(1)
      
