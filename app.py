@@ -48,7 +48,7 @@ with st.form(key="form1"):
 
  
     submit=st.form_submit_button("click here")
-    if submit:
+  if submit:
         
         driver.maximize_window()
 
@@ -107,8 +107,8 @@ with st.form(key="form1"):
             st.write(f"Class {x} join ayanu friend! Thanks namaste :)")
         except:
             st.write(f"Class {x} jaragadam ledu  friend! :(")
- else:
-  pass
+  else:
+        pass
         time.sleep(1)
      
 
