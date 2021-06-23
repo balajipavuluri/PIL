@@ -49,10 +49,7 @@ with st.form(key="form1"):
  
     submit=st.form_submit_button("click here")
     if submit:
-        #driver = webdriver.Chrome('C:/Users/balaji/Desktop/selenium/chromedriver.exe')
-        #C:\Users\balaji\Desktop\selenium
-        print(12345678)
-        #('C:\path\to\chromedriver.exe')
+        
         driver.maximize_window()
 
         driver.get("https://rvrjcce.codetantra.com")
