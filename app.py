@@ -53,7 +53,7 @@ def join_class_nd_sound(x):
                     break   
     except: 
         img()   
-        st.write("Class not active:",x) 
+        st.write("క్లాస్ पूरा 🙌 :",x) 
 
 def start(mail,passw):
     try:
@@ -78,7 +78,7 @@ def start(mail,passw):
 
     except :
         img()
-        st.write('looks like a error has occured')
+        st.write(' 🤯  vachindi ankunta 😔')
        
 
 
@@ -92,7 +92,7 @@ def img():
     except:
         img()    
 
-#st.title('bot')	
+st.title('నేను మీ క్లాసులో చేరతాను! 🙋')	
 with st.form(key="form1"):	
     mail=st.text_input("Enter mail")	
     passw=st.text_input("Enter passw", type="password")		
