@@ -92,7 +92,7 @@ def img():
     except:
         img()    
 
-st.title('నేను మీ క్లాసులో చేరతాను! 🙋')	
+st.title(" I'll class join AVTA! 🙋" )	
 with st.form(key="form1"):	
     mail=st.text_input("Enter mail")	
     passw=st.text_input("Enter passw", type="password")		
