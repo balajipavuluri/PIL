@@ -85,10 +85,10 @@ def start(mail,passw):
 
 def img():	
     try:
-        driver.save_screenshot("s.jpg")	
-        image = Image.open('s.jpg')	
+        driver.save_screenshot("s.png")	
+        image = Image.open('s.png')	
         st.image(image, caption='Image of class')	
-        os.remove('s.jpg')	
+        os.remove('s.png')	
     except:
         img()    
 
