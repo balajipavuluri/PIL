@@ -87,7 +87,7 @@ def img():
     try:
         driver.save_screenshot("s.png")	
         image = Image.open('s.png')	
-        st.image(image, caption='Image of class')	
+        st.image(image, caption='Current status')	
         os.remove('s.png')	
     except:
         img()    
