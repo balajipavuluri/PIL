@@ -49,7 +49,8 @@ def join_class_nd_sound(x):
                 if attrs['aria-label'] == 'Listen only':    
                     item.click()    
                     sleep(5)   
-                    img()   
+                    img()
+                    sleep(3600)
                     break   
     except: 
         img()   
